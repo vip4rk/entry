@@ -1,0 +1,104 @@
+/* Définition des couleurs selon la charte CES */
+:root {
+    --primary-color: #292827;  /* Noir chaud */
+    --secondary-blue: #0087CC;  /* Bleu */
+    --secondary-red: #BA3E2C;   /* Rouge */
+    --white: #FFFFFF;
+    --gray: #F5F5F5;
+}
+
+/* Police */
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--primary-color);
+    background-color: var(--gray);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Magistral', serif;
+    font-weight: bold;
+}
+
+/* Logo */
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 200px;  /* Ajuste la taille du logo */
+}
+
+.brand-claim {
+    font-family: 'Magistral', serif;
+    color: var(--primary-color);
+    font-size: 1.2em;
+}
+
+/* Boutons */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.primary-btn {
+    background-color: var(--secondary-blue);
+    color: var(--white);
+}
+
+.secondary-btn {
+    background-color: var(--secondary-red);
+    color: var(--white);
+}
+
+/* Page d'accueil */
+header {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Quiz */
+main {
+    padding: 40px;
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-check {
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz CESentry</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Magistral:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">  <!-- Lien vers ton fichier CSS -->
+</head>
+<body>
+
+    <!-- Page d'accueil -->
+    <header>
+        <div class="logo-container">
+            <img src="logo-ces.png" alt="CES Logo" class="logo">  <!-- Ton logo ici -->
+            <p class="brand-claim">Access to everything that matters</p>
+        </div>
+        <div class="intro">
+            <h1>Bienvenue sur le Quiz CESentry</h1>
+            <p>Testez vos connaissances sur la solution CESentry.</p>
+            <a href="quiz.php" class="btn primary-btn">Démarrer le Quiz</a>
+        </div>
+    </header>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 CES. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
