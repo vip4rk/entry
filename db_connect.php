@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 } else {
     echo "Connexion réussie à la base de données !";  // Pour vérifier si la connexion fonctionne
 }
-//git config git-ftp.url ftp://rklg4755:O2switch1603*@nirrti.o2switch.net:21/public_html/entry
-//git ftp init -v --user rklg4755 --passwd O2switch1603* ftp://nirrti.o2switch.net:21/public_html/entry
+//git config git-ftp.url ftp://rklg4755:O2switch1603\*@nirrti.o2switch.net:21/public_html/entry
+//git ftp init -v --user rklg4755 --passwd O2switch1603\* ftp://nirrti.o2switch.net:21/public_html/entry
 
 ?>
