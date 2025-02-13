@@ -12,7 +12,7 @@
     <!-- Page d'accueil -->
     <header>
         <div class="logo-container">
-            <img src="logo-ces.png" alt="CES Logo" class="logo">  <!-- Ton logo ici -->
+            <img src="logo-ces.svg" alt="CES Logo" class="logo">  <!-- Ton logo ici -->
             <p class="brand-claim">Access to everything that matters</p>
         </div>
         <div class="intro">
